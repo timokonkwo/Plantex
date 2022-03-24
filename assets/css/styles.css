@@ -362,6 +362,12 @@ the website, in dark theme
     transform: translateX(.25rem);
 }
 
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem
+}
+
 
 /*=============== QUESTIONS ===============*/
 
