@@ -264,6 +264,10 @@ the website, in dark theme
 
 /* Change background header */
 
+.scroll-header {
+    box-shadow: 0 1px 4px hsla(var(--hue), 4%, 15%, .1);
+}
+
 
 /* Active link */
 
@@ -366,6 +370,53 @@ the website, in dark theme
     display: inline-flex;
     align-items: center;
     column-gap: .5rem
+}
+
+.button--link {
+    color: var(--first-color);
+    font-weight: var(--font-medium);
+}
+
+.button--link:hover .button__icon {
+    transform: translateX(.25rem);
+}
+
+
+/*=============== ABOUT ===============*/
+
+.about__container {
+    row-gap: 2rem;
+}
+
+.about__img {
+    width: 280px;
+    justify-self: center;
+}
+
+.about__title {
+    margin-bottom: var(--mb-1);
+}
+
+.about__description {
+    margin-bottom: var(--mb-2);
+}
+
+.about__details {
+    display: grid;
+    row-gap: 1rem;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__details-description {
+    display: inline-flex;
+    column-gap: .5rem;
+    font-size: var(--small-font-size);
+}
+
+.about__details-icon {
+    font-size: 1rem;
+    color: var(--first-color);
+    margin-top: .15rem;
 }
 
 
