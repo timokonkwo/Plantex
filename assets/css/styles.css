@@ -537,6 +537,66 @@ the website, in dark theme
 
 /*=============== QUESTIONS ===============*/
 
+.questions {
+    background-color: var(--first-color-lighten);
+}
+
+.questions__container {
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+.questions__group {
+    display: grid;
+    row-gap: 1.5rem;
+}
+
+.questions__item {
+    background-color: var(--container-color);
+    border-radius: .25rem;
+}
+
+.questions__item-title {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+.questions__icon {
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+
+.questions__description {
+    font-size: var(--smaller-font-size);
+    padding: 0 1.25rem 1.25rem 2.5rem;
+}
+
+.question__header {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    padding: .75rem .5rem;
+    cursor: pointer;
+}
+
+.questions__content {
+    overflow: hidden;
+    height: 0;
+}
+
+.questions__item,
+.question__header,
+.questiolns__item-title,
+.questions__icon,
+.questions__description,
+.questions__content {
+    transition: .3s;
+}
+
+.questions__item:hover {
+    box-shadow: 0 2px 8px hsla(var(--hue), 4%, 15%, .15);
+}
+
 
 /*=============== CONTACT ===============*/
 
@@ -548,6 +608,9 @@ the website, in dark theme
 
 
 /*=============== BREAKPOINTS ===============*/
+
+
+/* For small devices */
 
 
 /* For small devices */
