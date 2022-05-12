@@ -264,6 +264,10 @@ the website, in dark theme
 
 /* Change background header */
 
+.scroll-header {
+    box-shadow: 0 1px 4px hsla(var(--hue), 4%, 15%, .1);
+}
+
 
 /* Active link */
 
@@ -368,8 +372,230 @@ the website, in dark theme
     column-gap: .5rem
 }
 
+.button--link {
+    color: var(--first-color);
+    font-weight: var(--font-medium);
+}
+
+.button--link:hover .button__icon {
+    transform: translateX(.25rem);
+}
+
+
+/*=============== ABOUT ===============*/
+
+.about__container {
+    row-gap: 2rem;
+}
+
+.about__img {
+    width: 280px;
+    justify-self: center;
+}
+
+.about__title {
+    margin-bottom: var(--mb-1);
+}
+
+.about__description {
+    margin-bottom: var(--mb-2);
+}
+
+.about__details {
+    display: grid;
+    row-gap: 1rem;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__details-description {
+    display: inline-flex;
+    column-gap: .5rem;
+    font-size: var(--small-font-size);
+}
+
+.about__details-icon {
+    font-size: 1rem;
+    color: var(--first-color);
+    margin-top: .15rem;
+}
+
+
+/*=============== STEPS ===============*/
+
+.steps__bg {
+    background-color: var(--first-color);
+    padding: 3rem 2rem 2rem;
+    border-radius: 1rem;
+}
+
+.steps__container {
+    gap: 2rem;
+    padding-top: 1rem;
+}
+
+.steps__title {
+    color: #fff;
+}
+
+.steps__card {
+    background-color: #fff;
+    padding: 2.5rem 3rem 2rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.steps__card-number {
+    display: inline-block;
+    background-color: var(--first-color-alt);
+    color: #fff;
+    padding: .5rem .75rem;
+    border-radius: .25rem;
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-1-5);
+    transition: .3s;
+}
+
+.steps__card-title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+
+.steps__card-description {
+    font-size: var(--small-font-size);
+}
+
+.steps__card:hover .steps__card-number {
+    transform: translateY(-.25rem);
+}
+
+
+/*=============== PRODUCTS ===============*/
+
+.product__description {
+    text-align: center;
+}
+
+.product__container {
+    padding: 3rem 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem 3rem;
+}
+
+.product__card {
+    display: grid;
+    position: relative;
+}
+
+.product__img {
+    position: relative;
+    width: 120px;
+    justify-self: center;
+    margin-bottom: var(--mb-0-75);
+    transition: .3s;
+}
+
+.product__title,
+.product__price {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+    /* text-align: center; */
+}
+
+.product__title {
+    margin-bottom: .25rem;
+}
+
+.product__button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: .25rem;
+    border-radius: .35rem;
+    font-size: 1.15rem;
+}
+
+.product__button:hover {
+    background-color: var(--first-color-alt);
+}
+
+.product__circle {
+    width: 90px;
+    height: 90px;
+    background-color: var(--first-color-lighten);
+    border-radius: 50%;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+}
+
+.product__card:hover .product__img {
+    transform: translateY(-.5rem);
+}
+
 
 /*=============== QUESTIONS ===============*/
+
+.questions {
+    background-color: var(--first-color-lighten);
+}
+
+.questions__container {
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+.questions__group {
+    display: grid;
+    row-gap: 1.5rem;
+}
+
+.questions__item {
+    background-color: var(--container-color);
+    border-radius: .25rem;
+}
+
+.questions__item-title {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+.questions__icon {
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+
+.questions__description {
+    font-size: var(--smaller-font-size);
+    padding: 0 1.25rem 1.25rem 2.5rem;
+}
+
+.question__header {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    padding: .75rem .5rem;
+    cursor: pointer;
+}
+
+.questions__content {
+    overflow: hidden;
+    height: 0;
+}
+
+.questions__item,
+.question__header,
+.questiolns__item-title,
+.questions__icon,
+.questions__description,
+.questions__content {
+    transition: .3s;
+}
+
+.questions__item:hover {
+    box-shadow: 0 2px 8px hsla(var(--hue), 4%, 15%, .15);
+}
 
 
 /*=============== CONTACT ===============*/
@@ -382,6 +608,9 @@ the website, in dark theme
 
 
 /*=============== BREAKPOINTS ===============*/
+
+
+/* For small devices */
 
 
 /* For small devices */
