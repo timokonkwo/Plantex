@@ -681,8 +681,24 @@ the website, in dark theme
     top: .75rem;
     width: 100%;
     font-size: var(--small-font-size);
-    color: var(--text-color-light);
-    transtion: .3s;
+    color: var(--text-color);
+    transition: .3s;
+}
+
+.contact__area {
+    height: 7rem;
+}
+
+.contact__area textarea {
+    resize: none;
+}
+
+/* Move label upwards on focusing input */
+.contact__input:focus + .contact__label {
+    top: -.75rem;
+    left: 0;
+    font-size: var(--smaller-font-size);
+    z-index: 10;
 }
 
 
@@ -693,6 +709,9 @@ the website, in dark theme
 
 
 /*=============== BREAKPOINTS ===============*/
+
+
+/* For small devices */
 
 
 /* For small devices */
