@@ -662,6 +662,29 @@ the website, in dark theme
     border-bottom: 1px solid var(--text-color-light);
 }
 
+.contact__input {
+    position: absolute;
+    top: 0rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 1rem 1rem 0;
+    background: none;
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    z-index: 1;
+}
+
+.contact__label {
+    position: absolute;
+    top: .75rem;
+    width: 100%;
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+    transtion: .3s;
+}
+
 
 /*=============== FOOTER ===============*/
 
