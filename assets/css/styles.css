@@ -647,7 +647,12 @@ the website, in dark theme
 }
 
 .contact__icon {
-    
+    font-size: 1.25rem;
+}
+
+.contact__inputs {
+    display: grid;
+    row-gap: 2rem;
 }
 
 
