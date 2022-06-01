@@ -653,6 +653,13 @@ the website, in dark theme
 .contact__inputs {
     display: grid;
     row-gap: 2rem;
+    margin-bottom: var(--mb-2-5);
+}
+
+.contact__content {
+    position: relative;
+    height: 3rem;
+    border-bottom: 1px solid var(--text-color-light);
 }
 
 
