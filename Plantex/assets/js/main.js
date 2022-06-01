@@ -47,6 +47,7 @@ accordionItems.forEach(item => {
     const accordionHeader = item.querySelector(".question__header");
 
     accordionHeader.addEventListener("click", () => {
+
         const openItem = document.querySelector('.accordion-open');
 
         toggleItem(item);
@@ -64,8 +65,8 @@ const toggleItem = (item) => {
         accordionContent.removeAttribute('style');
         item.classList.remove('accordion-open');
     } else {
-        accordionContent.style.height = accordionContent.scrollHeight + 'px';
         item.classList.add('accordion-open');
+        accordionContent.style.height = accordionContent.scrollHeight + 'px';
     }
 }
 

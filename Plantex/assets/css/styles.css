@@ -602,7 +602,53 @@ the website, in dark theme
 }
 
 
+/* Change the question accordion icon to X icon and change colors of titles and background*/
+
+.accordion-open .question__header,
+.accordion-open .questions__content {
+    background-color: var(--first-color);
+}
+
+.accordion-open .questions__item-title,
+.accordion-open .questions__description,
+.accordion-open .questions__icon {
+    color: #fff;
+}
+
+.accordion-open .questions__icon {
+    transform: rotate(45deg);
+}
+
+
 /*=============== CONTACT ===============*/
+
+.contact__container {
+    row-gap: 3.5rem;
+}
+
+.contact__data {
+    display: grid;
+    row-gap: 2rem;
+}
+
+.contact__subtitle {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--text-color);
+    margin-bottom: var(--mb-0-5);
+}
+
+.contact__description {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+
+.contact__icon {
+    
+}
 
 
 /*=============== FOOTER ===============*/
