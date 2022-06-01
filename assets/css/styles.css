@@ -693,7 +693,9 @@ the website, in dark theme
     resize: none;
 }
 
+
 /* Move label upwards on focusing input */
+
 .contact__input:focus + .contact__label {
     top: -.75rem;
     left: 0;
@@ -701,6 +703,12 @@ the website, in dark theme
     z-index: 10;
 }
 
+/* Input focus sticky top label */
+.contact__input:not(:placeholder-shown).contact__input:not(:focus) + .contact__label {
+    top: -.75rem;
+    font-size: var(--smaller-font-size);
+    z-index: 10;
+}
 
 /*=============== FOOTER ===============*/
 
