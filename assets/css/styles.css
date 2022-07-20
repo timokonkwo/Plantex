@@ -696,19 +696,22 @@ the website, in dark theme
 
 /* Move label upwards on focusing input */
 
-.contact__input:focus + .contact__label {
+.contact__input:focus+.contact__label {
     top: -.75rem;
     left: 0;
     font-size: var(--smaller-font-size);
     z-index: 10;
 }
 
+
 /* Input focus sticky top label */
-.contact__input:not(:placeholder-shown).contact__input:not(:focus) + .contact__label {
+
+.contact__input:not(:placeholder-shown).contact__input:not(:focus)+.contact__label {
     top: -.75rem;
     font-size: var(--smaller-font-size);
     z-index: 10;
 }
+
 
 /*=============== FOOTER ===============*/
 
