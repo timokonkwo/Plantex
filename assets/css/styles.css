@@ -5,7 +5,7 @@
 /*=============== VARIABLES CSS ===============*/
 
 :root {
-    --header-height: 4rem;
+    --header-height: 3.5rem;
     /*56px*/
     /*========== Colors ==========*/
     /*Color mode HSL(hue, saturation, lightness)*/
@@ -726,15 +726,51 @@ the website, in dark theme
     color: var(--title-color);
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: -1px; 
+    letter-spacing: -1px;
     margin-bottom: var(--mb-2-5);
     transition: .3s;
 }
 
 .footer__logo-icon {
     font-size: 1.15rem;
+    color: var(--first-color);
 }
 
+.footer__logo:hover {
+    color: var(--first-color);
+}
+
+.footer__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-1-5);
+}
+
+.footer__subscribe {
+    background-color: var(--first-color-lighten);
+    margin-bottom: var(--mb-1-5);
+    display: flex;
+    justify-content: space-between;
+    border-radius: .5rem;
+}
+
+.footer__input {
+    width: 70%;
+    padding: 0 .5rem;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: .7rem;
+    color: var(--text-color);
+}
+
+.footer__button {
+    padding: 1rem;
+}
+
+.footer__data {
+    display: grid;
+    row-gap: .75rem;
+}
 
 /*=============== SCROLL BAR ===============*/
 
