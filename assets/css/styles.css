@@ -791,10 +791,39 @@ the website, in dark theme
     transform: translateY(-.25rem);
 }
 
+.footer__cards {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    justify-content: center;
+}
+
+.footer__cards-title {
+    text-align: center;
+}
+
+.footer__card {
+    width: 35px;
+}
+
+.footer__copy {
+    text-align: center;
+    font-size: var(--smaller-font-size);
+    color: var(text-color-light);
+    margin: 5rem 0 1rem;
+}
+
+
 /*=============== SCROLL BAR ===============*/
 
 
 /*=============== BREAKPOINTS ===============*/
+
+
+/* For small devices */
+
+
+/* For small devices */
 
 
 /* For small devices */
