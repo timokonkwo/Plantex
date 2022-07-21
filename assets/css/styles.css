@@ -276,6 +276,16 @@ the website, in dark theme
     color: var(--first-color);
 }
 
+.active-link::after {
+    content: '';
+    position: absolute;
+    bottom: -.5rem;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: var(--first-color);
+}
+
 
 /*=============== HOME ===============*/
 
@@ -817,6 +827,21 @@ the website, in dark theme
     color: var(text-color-light);
     margin: 5rem 0 1rem;
 }
+
+
+/*=============== SCROLL UP ===============*/
+
+.scrollup {
+    position: fixed;
+    background-color: var(--first-color);
+    right: 1rem;
+    bottom: 5rem;
+    display: inline-flex;
+    padding: .5rem;
+}
+
+
+/*  Show scroll up */
 
 
 /*=============== SCROLL BAR ===============*/
