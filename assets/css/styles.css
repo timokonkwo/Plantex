@@ -246,7 +246,7 @@ the website, in dark theme
 
 .nav__link {
     color: var(--title-color);
-    font-weight: var(--font-medium);
+    font-weight: var(--font-semi-bold);
     transition: .3s;
 }
 
@@ -270,6 +270,11 @@ the website, in dark theme
 
 
 /* Active link */
+
+.active-link {
+    position: relative;
+    color: var(--first-color);
+}
 
 
 /*=============== HOME ===============*/
