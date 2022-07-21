@@ -835,7 +835,7 @@ the website, in dark theme
     position: fixed;
     background-color: var(--first-color);
     right: 1rem;
-    bottom: 5rem;
+    bottom: -30%;
     display: inline-flex;
     padding: .5rem;
     border-radius: .25rem;
@@ -848,6 +848,7 @@ the website, in dark theme
     font-size: 1rem;
     color: #fff;
 }
+
 .scrollup:hover {
     background-color: var(--first-color-alt);
     opacity: 1;
@@ -855,6 +856,10 @@ the website, in dark theme
 
 
 /*  Show scroll up */
+
+.show-scrollup {
+    bottom: 3rem;
+}
 
 
 /*=============== SCROLL BAR ===============*/

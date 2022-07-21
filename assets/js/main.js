@@ -99,7 +99,17 @@ window.addEventListener('scroll', scrollActive);
 
 
 /*=============== SHOW SCROLL UP ===============*/
+function showScroll() {
+    const scroll = document.querySelector('.scrollup');
+    if (window.pageYOffset > 200) {
 
+        scroll.classList.add('show-scrollup');
+    } else {
+        scroll.classList.remove('show-scrollup');
+    }
+}
+
+window.addEventListener('scroll', showScroll);
 
 /*=============== DARK LIGHT THEME ===============*/
 
