@@ -5,7 +5,7 @@
 /*=============== VARIABLES CSS ===============*/
 
 :root {
-    --header-height: 3.5rem;
+    --header-height: 4rem;
     /*56px*/
     /*========== Colors ==========*/
     /*Color mode HSL(hue, saturation, lightness)*/
@@ -714,6 +714,26 @@ the website, in dark theme
 
 
 /*=============== FOOTER ===============*/
+
+.footer__container {
+    row-gap: 3rem;
+}
+
+.footer__logo {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    color: var(--title-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -1px; 
+    margin-bottom: var(--mb-2-5);
+    transition: .3s;
+}
+
+.footer__logo-icon {
+    font-size: 1.15rem;
+}
 
 
 /*=============== SCROLL BAR ===============*/
