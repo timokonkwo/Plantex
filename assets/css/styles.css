@@ -772,6 +772,25 @@ the website, in dark theme
     row-gap: .75rem;
 }
 
+.footer__information {
+    font-size: var(--small-font-size);
+}
+
+.footer__social {
+    display: inline-flex;
+    column-gap: .75rem;
+}
+
+.footer_social-link {
+    font-size: 1rem;
+    color: var(--text-color);
+    transition: .3s;
+}
+
+.footer__social-link:hover {
+    transform: translateY(-.25rem);
+}
+
 /*=============== SCROLL BAR ===============*/
 
 
