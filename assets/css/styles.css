@@ -67,6 +67,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    transition: .3s;
 }
 
 html {
@@ -98,6 +99,11 @@ h2,
 h3 {
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
+    transition: none;
+}
+
+p {
+    transition: none !important;
 }
 
 ul {
@@ -148,6 +154,24 @@ Color changes in some parts of
 the website, in dark theme 
 ==========*/
 
+.dark-theme .steps__bg {
+    background-color: var(--first-color-dark);
+}
+
+.dark-theme .product__circle,
+.dark-theme .questions,
+.dark-theme .footer__subscribe {
+    background-color: var(--container-color);
+}
+
+.dark-theme .question__header {
+    background-color: var(--body-color);
+}
+
+.dark-theme .scroll-header {
+    box-shadow: 0 1px 4px hsla(var(--hue), 4%, 4%, .3);
+}
+
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 
@@ -191,6 +215,8 @@ the website, in dark theme
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
+    transition: .4s;
+    /* For dark mode transition animation */
 }
 
 
@@ -473,7 +499,7 @@ the website, in dark theme
 }
 
 .steps__card {
-    background-color: #fff;
+    background-color: var(--container-color);
     padding: 2.5rem 3rem 2rem 1.5rem;
     border-radius: 1rem;
 }
@@ -783,6 +809,7 @@ the website, in dark theme
 .footer__subscribe {
     background-color: var(--first-color-lighten);
     margin-bottom: var(--mb-1-5);
+    padding: .5rem;
     display: flex;
     justify-content: space-between;
     border-radius: .5rem;
@@ -794,7 +821,6 @@ the website, in dark theme
     background: none;
     border: none;
     outline: none;
-    font-size: .7rem;
     color: var(--text-color);
 }
 
@@ -896,6 +922,9 @@ the website, in dark theme
 
 
 /*=============== BREAKPOINTS ===============*/
+
+
+/* For small devices */
 
 
 /* For small devices */
