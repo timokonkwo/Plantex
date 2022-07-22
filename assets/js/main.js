@@ -102,7 +102,6 @@ window.addEventListener('scroll', scrollActive);
 function showScroll() {
     const scroll = document.querySelector('.scrollup');
     if (window.pageYOffset > 200) {
-
         scroll.classList.add('show-scrollup');
     } else {
         scroll.classList.remove('show-scrollup');
