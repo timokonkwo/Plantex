@@ -943,7 +943,6 @@ the website, in dark theme
     .steps__card {
         padding: 1.5rem;
     }
-
     .product__container {
         grid-template-columns: .6fr;
         justify-content: center;
@@ -952,6 +951,11 @@ the website, in dark theme
 
 
 /* For medium devices */
+@media screen and (min-width: 576px){
+    .steps__container {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
 
 
 /* For large devices */
