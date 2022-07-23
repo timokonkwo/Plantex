@@ -128,7 +128,6 @@ const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'ri-moo
 // We validate if the user previously chose a topic
 if (selectedTheme) {
     // If the validation is fulfilled, we check to know if we deactivated or activated
-
     document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme);
     themeButton.classList[selectedIcon === 'ri-moon-line' ? 'add' : 'remove'](iconTheme);
 }
