@@ -940,9 +940,13 @@ the website, in dark theme
     .steps__bg {
         padding: 2rem 1rem;
     }
-
     .steps__card {
         padding: 1.5rem;
+    }
+
+    .product__container {
+        grid-template-columns: .6fr;
+        justify-content: center;
     }
 }
 
