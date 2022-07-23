@@ -951,15 +951,20 @@ the website, in dark theme
 
 
 /* For medium devices */
-@media screen and (min-width: 576px){
-    .steps__container {
-        grid-template-columns: repeat(2, 1fr); 
-    }
 
+@media screen and (min-width: 576px) {
+    .steps__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
     .product__description {
         padding: 0 4rem;
     }
 
+    .product__container {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        column-gap: 5rem;
+    }
 }
 
 
