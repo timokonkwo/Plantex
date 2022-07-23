@@ -926,17 +926,15 @@ the website, in dark theme
 
 /* For small devices */
 
-
-/* For small devices */
-
-
-/* For small devices */
-
-
-/* For small devices */
+@media screen and (max-width: 320px) {
+    .container {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+}
 
 
-/* For small devices */
+/* For medium devices */
 
 
-/* For small devices */
+/* For large devices */
