@@ -6,7 +6,7 @@ A modern and responsive website for Plantex, a plant agency.
 ## Welcome! 👋
 
 ### Demo ### 
-[timokonkwo.com/Plantex]('https://timokonkwo.com/Plantex')
+![timokonkwo.com/Plantex]('https://timokonkwo.com/Plantex')
 
 # Design
 ![Mobile design preview for wwww.timokonkwo.com/Plantex](./assets/design/mobile1.png)
