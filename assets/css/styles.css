@@ -955,6 +955,11 @@ the website, in dark theme
     .steps__container {
         grid-template-columns: repeat(2, 1fr); 
     }
+
+    .product__description {
+        padding: 0 4rem;
+    }
+
 }
 
 
