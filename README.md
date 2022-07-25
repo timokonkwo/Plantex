@@ -1,7 +1,7 @@
 # Plantex-website
 A modern and responsive website for Plantex, a plant agency.
 
-### Both light and dark mode ###
+### Supports both light and dark mode ###
 
 ## Welcome! 👋
 
